@@ -56,7 +56,6 @@ class FavoriteRecipesAdapter(
 
         val currentRecipe = favoriteRecipes[position]
         holder.bind(currentRecipe)
-
         saveItemStateOnScroll(currentRecipe, holder)
 
         /**
